@@ -1,0 +1,27 @@
+.footer .contenedor{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.footer [class^="icon-"]{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+
+
