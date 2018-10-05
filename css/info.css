@@ -1,59 +1,58 @@
-#blog {
+#info {
     margin: 30px;
     width: auto;
 }
 
-#blog h2, h3, h4 {
+#info h2, h3, h4 {
     text-align: center;
     
 }
 
-#blog  .blog__titulo {
+#info  .info__titulo {
     font-size: 20px;
-    background: #333;
     margin-left: 10px;
     margin-right: 10px;
-    color: #fff;
 }
 
-#blog .blog__encabezado {
+.info__enlace {
+    color: #000;
+    text-decoration: none;
+}
+
+#info .info__encabezado {
     font-size: 20px;
 }
 
-#blog .blog__txt{
-    text-align: center;
+#info .info__txt{
+    text-align:justify;
     margin-bottom: 20px;
 }
 
 
-#blog .contenedor{
+#info .contenedor{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 
-#blog img {
+#info img {
     display: block;
     width: 400px;
     height: 200px;
     max-width: 95%;
 }
 
-.blog__enlace {
-    color: #fff;
-    text-decoration: none;
-}
 
-#blog .blog__img{
+
+#info .info__img{
     margin: auto;
 }
 
-#blog article{
-    
-}
+
 
 
 

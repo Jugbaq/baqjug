@@ -9,12 +9,13 @@
     <body>
         <header>
             <div class="contenedor">
-                <a class="header__enlace" href="index.html"><h1>JUGBAQ</h1></a>
+                <a class="header__enlace" href="index.html"><h1>JUGBAQ</h1></a>        
+
                 <input type="checkbox" id="menu-bar">
-                <label class="icon-menu" for="menu-bar"></label>     
-                   <nav class="menu">
+                <label class="icon-menu" for="menu-bar" id="btn-menu"></label>     
+                   <nav class="menu" id="nav">
                         <a class="select" href="index.html">Inicio</a>
-                        <a href="error2.html">Blogs</a>
+                        <a href="error2.html">Blog</a>
                         <a href="error3.html">Eventos</a>
                         <a href="contacto.html">Contacto</a>
                     </nav>     
@@ -23,11 +24,11 @@
         
         <main>
             <section id="banner">
-                <img src="img/Invitacion_Java.png">
+                <img src="img/Logo.png">
                 <div class="contenedor">
-                    <h2>Meetup Java con AWS</h2>
-                    <p>Hans Ospina - Director of Enginering al AllCode</p>
-                    <a href="eventon.html"> Leer mas.</a>
+                    <h2 class="banner__titulo">Barranquijava</h2>
+                    <p class="banner__txt">¡Ven y haz parte de nuestra comunidad, te esperamos!</p>
+                    <!-- Solo para eventos <a href="eventon.html"> Leer mas.</a>-->
                 </div>
                 
             </section>
@@ -39,25 +40,50 @@
                 </p>
             </section> 
             
+            <section id="info"> 
+               <div class="contenedor">
+                    <article>                    
+                        <img src="img/BarranquiJava_Duke_Sponsors_by_Ulises_Fritz.png"  class="info__img">
+                        <h3 class="info__titulo">Patrocinadores</h3>
+                        <p class="info__txt">Conoce nuestros patrocinadores. Organizaciones que con sus valiosos aportes permiten que grupos como el nuestro existan y sigan creciendo. Tenemos patrocinadores de auditorios para nuestras reuniones, descuentos en libros, licencias de productos, cursos virtuales, etc. A todos ellos muchas gracias!</p>                        
+                    </article>
+                    <article>                    
+                        <img src="img/BarranquiJava_Duke_FAQ_by_Ulises_Fritz.png"  class="info__img">
+                        <h3 class="info__titulo">FAQ</h3>
+                        <p class="info__txt">En esta sección, puedes encontrar respuestas a algunas de las preguntas más frecuentes que tienen quienes por primera vez se enteran de nuestro grupo de usuarios Java. Si después de leer estas respuestas aún tienes preguntas, no dudes en contactarnos.</p>                        
+                    </article>
+                    <article>                    
+                        <img src="img/BarranquiJava_Duke_About_Us_by_Ulises_Fritz.png"  class="info__img">
+                        <h3 class="info__titulo">Acerca de</h3>
+                        <p class="info__txt">¿Te apasiona la tecnología Java y vives en Barranquilla, Colombia? Entonces únete al Java Users Group (JUG) Barranquilla (BAQ) – JUGBAQ. Dónde vas a conocer otras personas apasionadas por la plataforma Java, tendrás nuevo amigos, contactos profesionales y compartirás tus conocimientos.</p>                        
+                    </article>                                        
+                </div>
+            </section>            
+            
             <section id="blog">
-                <h2 class="blog__encabezado">Lo último de nuestros eventos</h2>  
+                <h2 class="blog__encabezado">Eventos realizados por nuestra comunidad.</h2>  
                <div class="contenedor">
                     <article>
+                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">AMAZON WEB SERVICE</a></h3>
+                        <a class="blog__enlace" href="#"><img src="img/Evento4/Invitacion_Java.png"  class="blog__img"></a>
+                        <p class="blog__txt">Evento 29 de septiembre del 2018</p>
+                    </article>
+                    <article>
                         <h3 class="blog__titulo"><a class="blog__enlace" href="#">VAADIN</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/Vaadin.png"></a>
-                        <p class="blog__txt">Conoce el poderoso API de Java llamado VAADIN</p>
+                        <a class="blog__enlace" href="#"><img src="img/Evento3/2017-02-18_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
+                        <p class="blog__txt">Evento 18 de Febrero De 2017</p>
                     </article>
                     
                     <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">FRAMEWORKS WEB</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/spring-boot2.jpg"></a>
-                        <p class="blog__txt">Conoce todas las características  el potencial de Spring boot, kendo y Angular2</p>
+                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">SPRING-ANGULAR</a></h3>
+                        <a class="blog__enlace" href="#"><img src="img/Evento2/2017-01-16_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
+                        <p class="blog__txt">Evento 25 de enero del 2017</p>
                     </article>
                     
                     <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">PAYARA</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/PayaraServer.jpg"></a>
-                        <p class="blog__txt">Conoce el servidor de aplicación que está remplazando a GlassFish</p>
+                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">PAYARA SERVER</a></h3>
+                        <a class="blog__enlace" href="#"><img src="img/Evento1/2016-11-12_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
+                        <p class="blog__txt">Evento 12 de noviembre del 2016</p>
                     </article>
 
                 </div>

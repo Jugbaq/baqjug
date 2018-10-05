@@ -1,5 +1,6 @@
 @import url(fonts.css);
 @import url(menu.css);
+@import url(responsive.css);
 @import url(responsive_menu.css);
 @import url(banner.css);
 @import url(blog.css);
@@ -8,6 +9,9 @@
 @import url(contacto.css);
 @import url(error.css);
 @import url(responsive_error.css);
+@import url(info.css);
+@import url(responseive_info.css);
+@import url(patrocinadores.css);
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
@@ -61,9 +65,11 @@ section {
 }
 
 #bienvenidos {
-    margin: auto;
+    margin-top: 80px;
     width: 95%;
     text-align : justify;
     
 }
+
+
 
