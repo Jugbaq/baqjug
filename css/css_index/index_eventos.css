@@ -1,0 +1,62 @@
+
+.eventos__columna {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.eventos__descripcion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+}
+
+.eventos__titulo {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+/* tamaño Mobil */
+@media(min-width:480px){
+    .eventos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }  
+    
+    
+   .eventos__columna {
+       width: 49%;
+    }
+
+}
+
+/* Tamaño Tablet */
+@media(min-width:768px){
+
+    .eventos__titulo {
+        font-size: 40px;
+        margin: 5px 0;
+    }
+    
+    .eventos__txt {
+        font-size: 18px;
+        margin: 10px 0
+    }
+
+}
+
+
+/* tamaño pc */
+@media(min-width:1024px){
+    
+    .eventos__titulo {
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+}

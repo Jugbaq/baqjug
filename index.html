@@ -1,105 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>jugbaq</title>
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <link rel="stylesheet" href="css/estilos.css">
-    </head>
-    <body>
-        <header>
-            <div class="contenedor">
-                <a class="header__enlace" href="index.html"><h1>JUGBAQ</h1></a>        
-
-                <input type="checkbox" id="menu-bar">
-                <label class="icon-menu" for="menu-bar" id="btn-menu"></label>     
-                   <nav class="menu" id="nav">
-                        <a class="select" href="index.html">Inicio</a>
-                        <a href="error2.html">Blog</a>
-                        <a href="error3.html">Eventos</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>     
-            </div>
-        </header>
-        
-        <main>
-            <section id="banner">
-                <img src="img/Logo.png">
-                <div class="contenedor">
-                    <h2 class="banner__titulo">Barranquijava</h2>
-                    <p class="banner__txt">¡Ven y haz parte de nuestra comunidad, te esperamos!</p>
-                    <!-- Solo para eventos <a href="eventon.html"> Leer mas.</a>-->
-                </div>
-                
+<head>
+    <meta charset="UTF-8">
+    <title>jugbaq</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/css_index/index_estilos.css">
+</head>
+<body>
+   <header class="header">
+       <div class="contenedor">
+           <h1 class="logo">JugBaq</h1>
+           <span class="icon-menu" id="btn-menu"></span>
+           <nav class="nav" id="menu-nav">
+               <ul class="menu">
+                   <li class="menu__item"><a class="menu__link select" href="">Inicio</a></li>
+                   <li class="menu__item"><a class="menu__link" href="">Blog</a></li>
+                   <li class="menu__item"><a class="menu__link" href="">Eventos</a></li>
+                   <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
+               </ul>
+           </nav>
+       </div>
+   </header>
+    <div class="banner">
+        <img src="img/Evento4/IMG_1114.JPG" alt="" class="banner__img">
+        <div class="contenedor">
+            <h2 class="banner__titulo">Barranquijava</h2>
+            <p class="banner__txt">¡Ven y haz parte de nuestra comunidad, te esperamos!</p>
+        </div>
+    </div>
+    <main class="main">
+        <div class="contenedor">
+            <section class="info">
+                <article class="info__columna">
+                    <img src="img/BarranquiJava_Duke_Sponsors_by_Ulises_Fritz.png" alt="" class="info__img">
+                    <h2 class="info__titulo">Patrocinadores</h2>
+                    <p class="info__txt">Conoce nuestros patrocinadores. Organizaciones que con sus valiosos aportes permiten que grupos como el nuestro existan y sigan creciendo. Tenemos patrocinadores de auditorios para nuestras reuniones, descuentos en libros, licencias de productos, cursos virtuales, etc. A todos ellos muchas gracias!</p>
+                    <a href="" class="info__link" title="Patrocinadores">Leer más</a>
+                </article>
+                <article class="info__columna">
+                    <img src="img/BarranquiJava_Duke_FAQ_by_Ulises_Fritz.png" alt="" class="info__img">
+                    <h2 class="info__titulo">FAQ</h2>
+                    <p class="info__txt">En esta sección, puedes encontrar respuestas a algunas de las preguntas más frecuentes que tienen quienes por primera vez se enteran de nuestro grupo de usuarios Java. Si después de leer estas respuestas aún tienes preguntas, no dudes en contactarnos.</p>
+                    <a href="" class="info__link" title="FAQ">Leer más</a>
+                </article>
+                <article class="info__columna">
+                    <img src="img/BarranquiJava_Duke_About_Us_by_Ulises_Fritz.png" alt="" class="info__img">
+                    <h2 class="info__titulo">Acerca de</h2>
+                    <p class="info__txt">¿Te apasiona la tecnología Java y vives en Barranquilla, Colombia? Entonces únete al Java Users Group (JUG) Barranquilla (BAQ) – JUGBAQ. Dónde vas a conocer otras personas apasionadas por la plataforma Java, tendrás nuevo amigos, contactos profesionales y compartirás tus conocimientos.</p>
+                    <a href="" class="info__link" title="Acerca de" >Leer más</a>
+                </article>
             </section>
-            
-            <section id="bienvenidos">
-                <h2>BARRANQUILLA JAVA USER GROUP</h2>
-                <p>
-                  Somos un grupo de entusiastas de la Plataforma Java, enfocados en promover el conocimiento Java en el presente y futuras generaciones de programadores. A través de nuestros foros y reuniones periódicas pretendemos mantenernos en contacto con los últimos desarrollos de la industria, aprender nuevas tecnologías de Java (JVM y otros), conocer a otros desarrolladores, discutir temas técnicos / no técnicos y de la red, en toda la Comunidad Java.                    
-                </p>
-            </section> 
-            
-            <section id="info"> 
-               <div class="contenedor">
-                    <article>                    
-                        <img src="img/BarranquiJava_Duke_Sponsors_by_Ulises_Fritz.png"  class="info__img">
-                        <h3 class="info__titulo">Patrocinadores</h3>
-                        <p class="info__txt">Conoce nuestros patrocinadores. Organizaciones que con sus valiosos aportes permiten que grupos como el nuestro existan y sigan creciendo. Tenemos patrocinadores de auditorios para nuestras reuniones, descuentos en libros, licencias de productos, cursos virtuales, etc. A todos ellos muchas gracias!</p>                        
-                    </article>
-                    <article>                    
-                        <img src="img/BarranquiJava_Duke_FAQ_by_Ulises_Fritz.png"  class="info__img">
-                        <h3 class="info__titulo">FAQ</h3>
-                        <p class="info__txt">En esta sección, puedes encontrar respuestas a algunas de las preguntas más frecuentes que tienen quienes por primera vez se enteran de nuestro grupo de usuarios Java. Si después de leer estas respuestas aún tienes preguntas, no dudes en contactarnos.</p>                        
-                    </article>
-                    <article>                    
-                        <img src="img/BarranquiJava_Duke_About_Us_by_Ulises_Fritz.png"  class="info__img">
-                        <h3 class="info__titulo">Acerca de</h3>
-                        <p class="info__txt">¿Te apasiona la tecnología Java y vives en Barranquilla, Colombia? Entonces únete al Java Users Group (JUG) Barranquilla (BAQ) – JUGBAQ. Dónde vas a conocer otras personas apasionadas por la plataforma Java, tendrás nuevo amigos, contactos profesionales y compartirás tus conocimientos.</p>                        
-                    </article>                                        
+            <section class="eventos">
+                <h2 class="section__titulo">Eventos Realizados</h2>
+                <div class="eventos__columna">
+                    <img src="img/Evento4/Invitacion_Java.png" alt="" class="eventos__img">
+                    <div class="eventos__descripcion">
+                        <h3 class="eventos__titulo">AMAZON WEB SERVICE</h3>
+                        <p class="eventos__txt">Evento 29 de septiembre del 2018</p>
+                    </div>
                 </div>
-            </section>            
-            
-            <section id="blog">
-                <h2 class="blog__encabezado">Eventos realizados por nuestra comunidad.</h2>  
-               <div class="contenedor">
-                    <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">AMAZON WEB SERVICE</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/Evento4/Invitacion_Java.png"  class="blog__img"></a>
-                        <p class="blog__txt">Evento 29 de septiembre del 2018</p>
-                    </article>
-                    <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">VAADIN</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/Evento3/2017-02-18_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
-                        <p class="blog__txt">Evento 18 de Febrero De 2017</p>
-                    </article>
-                    
-                    <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">SPRING-ANGULAR</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/Evento2/2017-01-16_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
-                        <p class="blog__txt">Evento 25 de enero del 2017</p>
-                    </article>
-                    
-                    <article>
-                        <h3 class="blog__titulo"><a class="blog__enlace" href="#">PAYARA SERVER</a></h3>
-                        <a class="blog__enlace" href="#"><img src="img/Evento1/2016-11-12_Barranquijava_by_Ulises_Fritz_UDesign.jpg"  class="blog__img"></a>
-                        <p class="blog__txt">Evento 12 de noviembre del 2016</p>
-                    </article>
-
+                <div class="eventos__columna">
+                    <img src="img/Evento3/2017-02-18_Barranquijava_by_Ulises_Fritz_UDesign.jpg" alt="" class="eventos__img">
+                    <div class="eventos__descripcion">
+                        <h3 class="eventos__titulo">VAADIN</h3>
+                        <p class="eventos__txt">Evento 18 de Febrero De 2017</p>
+                    </div>
+                </div>
+                <div class="eventos__columna">
+                    <img src="img/Evento2/2017-01-16_Barranquijava_by_Ulises_Fritz_UDesign.jpg" alt="" class="eventos__img">
+                    <div class="eventos__descripcion">
+                        <h3 class="eventos__titulo">SPRING-ANGULAR</h3>
+                        <p class="eventos__txt">Evento 25 de enero del 2017</p>
+                    </div>
+                </div>
+                <div class="eventos__columna">
+                    <img src="img/Evento1/2016-11-12_Barranquijava_by_Ulises_Fritz_UDesign.jpg" alt="" class="eventos__img">
+                    <div class="eventos__descripcion">
+                        <h3 class="eventos__titulo">PAYARA SERVER</h3>
+                        <p class="eventos__txt">Evento 12 de noviembre del 2016</p>
+                    </div>
                 </div>
             </section>
-        </main>
-        <footer class="footer">
-            <div class="contenedor">
-               <h2>Siguenos!</h2>
-                <div class="sociales">
-                    <a class="icon-github" href="https://github.com/jugbaq" target="_blank"></a>
-                    <a class="icon-twitter" href="http://twitter.com/jugbaq" target="_blank"></a>
-                    <a class="icon-facebook" href="#"></a>
-                    <a class="icon-instagram" href="#"></a>
-                </div> 
-                <p class="copy"> &copy JugBaq 2018 </p>   
-            </div>
-        </footer>
-    </body>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="social">
+            <a href="" class="icon-github"></a>
+            <a href="" class="icon-twitter"></a>
+            <a href="" class="icon-facebook"></a>
+            <a href="" class="icon-instagram"></a>
+        </div>
+        <p class="copy">&copy; JugBaq 2018</p>
+    </footer>
+   <script src="js/menu.js"></script>
+</body>
 </html>

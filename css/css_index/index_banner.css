@@ -1,0 +1,62 @@
+.banner {
+    margin-top: -60px;
+    
+    /* Para no tapar el menu */
+    position: relative;
+    z-index: -1000;
+    margin-bottom: 20px;
+    
+}
+
+.banner .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    
+}
+
+.banner__txt {
+    display: none;
+}
+
+/* Tamaño Mobil */
+@media(min-width:480px){
+    
+    .banner__titulo {
+        font-size: 30px;
+        margin: 5px 0;
+    }  
+    
+    .banner__txt {
+        display: block;
+        font-size: 18px;
+        margin: 7px 0;
+    }
+}
+
+/* Tamaño Tablet */
+@media(min-width:768px){
+    
+    .banner__titulo {
+        font-size: 50px;
+    }  
+    
+    .banner__txt {
+        display: block;
+        font-size: 25px;
+    }
+}
+
+/* tamaño pc */
+@media(min-width:1024px){
+    
+    .banner__titulo {
+        font-size: 60px;
+    }  
+
+}

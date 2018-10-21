@@ -1,6 +1,6 @@
 var btnMenu = document.getElementById('btn-menu');
-var nav = document.getElementById('nav');
+var menuNav = document.getElementById('menu-nav');
 
 btnMenu.addEventListener('click', function(){
-    nav.classList.toggle('mostrar');
+    menuNav.classList.toggle('mostrar');
 })
