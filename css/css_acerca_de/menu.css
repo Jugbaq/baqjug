@@ -1,0 +1,83 @@
+
+
+
+.nav {
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    
+    /* evento mostrar para que se traslade mas lento el menu al salir */
+    transition: all 0.4s;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu__link {
+    display: block;
+    padding: 15px;
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover, .select{
+    background: #fff;
+    color : #333;
+}
+
+.mostrar {
+    left: 0;
+}
+
+/* tamaño pc */
+@media(min-width:1024px){
+    
+    .nav {
+        position: static;
+        width: auto;
+    }
+    
+    .menu {
+        display: flex;
+    }
+    
+    .icon-menu{
+        display: none;
+    }
+    
+    .menu__link {
+        background: none;
+        font-size: 20px;
+    }
+    
+    .select {
+        color: #fff;
+        background: #333;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
