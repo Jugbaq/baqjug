@@ -1,10 +1,10 @@
 
-.info__columna {
+.espacio__columna {
     color: #333;
     margin-bottom: 20px;
 }
 
-.info__titulo{
+.espacio__titulo{
     font-size: 25px;
     margin: 10px 0;
     padding: 15px 8px;
@@ -12,7 +12,7 @@
     border-color: #ddd;
 }
 
-.info__txt{
+.espacio__txt{
     text-align: justify;
     color: #777;
     padding: 15px 10px;
@@ -22,16 +22,16 @@
 /* Tamaño Mobil */
 @media(min-width:480px){
     
-    .info {
+    .espacio {
         display: flex;
         justify-content: space-between;
     }  
     
-    .info__columna {
+    .espacio__columna {
         text-align: left;
     }
     
-    .info__titulo{
+    .espacio__titulo{
         font-size: 30px;
         margin: 5px 0;
     }
@@ -40,20 +40,20 @@
 /* Tamaño pc */
 @media(min-width:1024px){
     
-    .info {
+    .espacio {
         display: block;
         justify-content: space-between;
         position:relative;
     }  
     
     
-    .info__titulo {
+    .espacio__titulo {
         margin-top: 20px;
         font-size: 35px;
         text-align: left;
     }
     
-    .info__txt{
+    .espacio__txt{
         text-align: justify;
         color: #777;
         padding: 10px 10px;

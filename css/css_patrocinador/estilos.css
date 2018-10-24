@@ -10,7 +10,8 @@
 @import url(menu.css);
 @import url(banner.css);
 @import url(info.css);
-@import url(eventos.css);
+@import url(espacio.css);
+@import url(licencia.css);
 @import url(footer.css);
   
     
@@ -56,9 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 /* tamaño PC */
 @media(min-width:1024px){
 
-    .contenedor {
-        width: 1000px;
-    }
+    
 }
 
 
