@@ -21,7 +21,7 @@
 @media(min-width:480px){
     
     .faq {
-        display: flex;
+        display: block;
         justify-content: space-between;
     }  
     
