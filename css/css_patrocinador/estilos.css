@@ -1,0 +1,64 @@
+@import url(../fonts.css);
+
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Open+San');
+
+@import url(../../js/menu.js);
+
+/* Estilos Index */
+@import url(header.css);  
+@import url(menu.css);
+@import url(banner.css);
+@import url(info.css);
+@import url(eventos.css);
+@import url(footer.css);
+  
+    
+*{
+    box-sizing: border-box;        
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+    
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;   
+    letter-spacing: 1.5px;
+}
+
+.section__titulo{
+    text-align: center;
+    font-size: 40px;
+    color: #fba919;
+    
+}
+
+.contenedor {
+    margin: auto;
+    width: 99%;
+}
+
+/* tamaño Mobil */
+@media(min-width:480px){
+    .section__titulo{
+        width: 100%;
+    }
+}
+
+/* tamaño PC */
+@media(min-width:1024px){
+
+    .contenedor {
+        width: 1000px;
+    }
+}
+
+
