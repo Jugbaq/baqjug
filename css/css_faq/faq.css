@@ -38,6 +38,12 @@
 /* Tamaño pc */
 @media(min-width:1024px){
     
+    .main .contenedor {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
     .faq {
         display: block;
         justify-content: space-between;
@@ -45,7 +51,7 @@
     }  
     
     .faq__columna {
-        width: 60%;
+        width: 100%;
     }
     
     

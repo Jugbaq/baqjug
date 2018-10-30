@@ -40,6 +40,12 @@
 /* Tamaño pc */
 @media(min-width:1024px){
     
+    .main .contenedor {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
     .espacio {
         display: block;
         justify-content: space-between;

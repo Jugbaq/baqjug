@@ -55,6 +55,12 @@
 /* Tamaño pc */
 @media(min-width:1024px){
     
+    .main .contenedor {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    
     .info {
         display: block;
         justify-content: space-between;
@@ -62,7 +68,7 @@
     } 
     
     .info__columna{
-        width: 60%;
+        width: 100%;
     }
     
     

@@ -1,0 +1,23 @@
+
+/* Tamaño Mobil */
+@media(min-width:480px){
+    
+    .twitter {
+        display: flex;
+        width: 30%;
+    }  
+    
+}
+
+/* Tamaño pc */
+@media(min-width:1024px){
+    
+    
+    
+    .twitter {
+        display: block;
+        width: 100%;
+        position:relative;
+    } 
+    
+}
