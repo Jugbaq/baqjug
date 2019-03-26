@@ -41,18 +41,18 @@
 /* Tamaño pc */
 @media(min-width:800px){
 
-  .info__columna {
+  /*.info__columna {
       background-color: rgb(3,3,3); opacity: 0.5;
-  }
+  }*/
 
 }
 
 /* Tamaño pc */
 @media(min-width:1024px){
 
-  .info__columna {
+  /*.info__columna {
       background-color: rgb(3,3,3); opacity: 0.5;
-  }
+  }*/
 
     .info__titulo {
         font-size: 40px;
